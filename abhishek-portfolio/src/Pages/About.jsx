@@ -8,7 +8,7 @@ import {
   Trophy
 } from "lucide-react";
 
-import profileImage from "../assets/Profile/ABHISHEK..jpeg";
+import profileImage from "../assets/Profile/ABHISHEK.jpeg";
 
 function About() {
   const interests = [
