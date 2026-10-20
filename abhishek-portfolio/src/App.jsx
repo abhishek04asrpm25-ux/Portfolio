@@ -9,8 +9,8 @@ import {
 import Navbar from "./components/Navbar";
 import PageTransition from "./components/PageTransition";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
 import Skills from "./Pages/Skills";
 import Projects from "./Pages/Projects";
 import Journey from "./Pages/Journey";
