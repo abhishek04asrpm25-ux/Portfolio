@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import {
   ArrowDown,
   ArrowUpRight,
@@ -115,21 +116,21 @@ function Home() {
 
             <div className="home-actions">
 
-              <a
-                href="/projects"
-                className="home-primary-button"
-              >
-                View my work
-                <ArrowUpRight size={17} />
-              </a>
+             <Link
+  to="/projects"
+  className="home-primary-button"
+>
+  View my work
+  <ArrowUpRight size={17} />
+</Link>
 
 
-              <a
-                href="/contact"
-                className="home-secondary-button"
-              >
-                Let's connect
-              </a>
+            <Link
+  to="/contact"
+  className="home-secondary-button"
+>
+  Let's connect
+</Link>
 
             </div>
 
